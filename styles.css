@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #eaedf0;
+    border: 1px solid red;
+}
+
+.menu {
+    height: 100px;
+    background-color: #b3d6ff;
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background: #f09a9d;
+}
+
+.content {
+    float: left;
+    width: 650px;
+    height: 500px;
+    background-color: #f5cf8e;
+    padding: 20px;
+}
+
+.article-image {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+
+.footer {
+    /* clears both left and right FLOAT */
+    clear: both;
+    height: 200px;
+    background-color: #d6e9fe;
+    /* STRETCHES THE PAGE SIZE SO THE BACKGROUND FITS */
+    overflow:scroll;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: #b2d6ff;
+}
+
+.avatar {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #D6e9fe;
+}
+
+.username {
+    margin-top: 30px;
+}
+
+.comment {
+    margin: 10px;
+    overflow: hidden;
+}
+
+/*                         ---------------------- FLOAT ------------------------                    */
+
+/* 
+    FLOAT: align and let surround elements know they can FLOW OVER. Bellow flows into above.
+
+    to alignt block boxes horizontally set both to float: left; and they will stack horizontally
+*/
